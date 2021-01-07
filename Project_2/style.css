@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+.header
+{
+display: flex;
+flex-direction: row;
+background-color: blueviolet;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    list-style: none;
+    padding: 20px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: medium;
+    letter-spacing: 2px;
+    font-family: 'Baloo 2', cursive;
+}
+.navbar li :hover
+{
+    background-color: rgb(77, 10, 165);
+    border-radius: 10px;
+}
+.navbar li
+{
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #975ad0;
+    border-radius: 10px;
+}
+.right
+{
+    margin-left: 378px;
+    margin-top: 42px;
+}
+.btn
+{
+    margin-left: 10px;
+    font-family:'Baloo 2', cursive; 
+    padding: 5px;
+   
+    cursor: pointer;
+}
+.btn:hover
+{
+background-color: cornsilk;
+}
+.container_One
+{
+    background-color: rgb(197, 95, 211);
+    margin-top: -2px;
+    height: 300px;
+    display: flex;
+}
+.image
+{
+    margin:20px;
+    box-shadow: 5px 10px #645e64;
+    
+}
+.address
+{
+    padding: 50px;
+    font-family:serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color:black;
+    
+}
+.about
+{
+    padding: 20px;
+    font-family:'Baloo 2', cursive; 
+}
+.container_Two
+{
+    margin-top: -21px;
+}
+.container_Two h1
+{
+    background-color: rgb(228, 19, 193);
+    letter-spacing: 2px;
+    font-family:'Baloo 2', cursive; 
+}
+.cards
+{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(202, 143, 189);
+    margin-top: -20px;
+}
+.card
+{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px 210px ;
+    grid-template-areas: "image" "text" ;
+    font-family: 'Baloo 2';
+    background-color: burlywood;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.card_image
+{
+grid-area: image;
+background: url(./image/tea-311844_640.png);
+background-size: cover;
+
+}
+.card_text
+{
+    grid-area: text;
+    margin: 25px;
+}
+.card_image_python
+{
+    grid-area: image;
+    background: url(./image/mobile-phone-1513945_640.jpg);
+    background-size: cover;  
+}
+.card_image_web
+{
+    grid-area: image;
+    background: url(./image/wordpress-3288417_640.png);
+    background-size: cover;   
+}
+.container
+{
+    border:2px solid white;
+     margin:auto;
+    padding:75px;
+    width:40%;
+    border-radius: 28px;
+}
+.form-group input{
+   text-align: center;
+   display: block;
+   width:500px;
+   padding:1px;
+   font-size: 21px;
+   border:2px solid black;
+   margin:7px auto;
+   border-radius: 10px;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+.container h1{
+    text-align: center;
+    border-radius: 10px;
+}
+.container button{
+    display: block;
+    width:23%;
+    margin:auto;
+}
+.form-button
+{
+    background-color: lightcoral;
+    padding: 10px;
+    font-family: 'Baloo 2';
+    cursor: pointer;
+    border-radius: 10px;
+}
+.bottom
+{
+    background-color: lightpink;
+    text-align: center;
+}
+
+
