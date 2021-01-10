@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(120deg, #9a24c1, #ec28c2);
+    font-family: 'Baloo 2', cursive;
+
+    color: blanchedalmond;
+    min-height: 100vh;
+}
+.resetting
+{
+    transform: translate(20rem) rotate(180deg);
+    opacity: 0;  
+}
+.to-reset
+{
+    margin-left:150px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgb(245, 91, 163);
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    border: none;
+}
+.to-reset:hover
+{
+    background-color: rgb(233, 157, 240);
+}
+ul{
+background-color: blueviolet;
+}
+header{
+    font-size: 1.5rem;
+}
+header,form{
+    min-height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+form input,form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+form button{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgb(245, 91, 245);
+}
+form button:hover
+{
+    background: blanchedalmond;
+    color: black;
+}
+.todo-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list
+{
+    min-width: 30%;
+    list-style: none;
+}
+.todo{
+    margin: 0.5rem;
+    background: white;
+    color:black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.todo li{
+    flex: 1;
+}
+.thrash-btn,.complete-btn
+{
+    background: #ff4756;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.complete-btn{
+    background: green;
+}
+.todo-item
+{
+    padding: 0rem 0.5rem;
+}
+.fa-check-square,.fa-trash-alt
+{
+    pointer-events: none;
+}
+.completed
+{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall
+{
+    transform: translate(8rem) rotate(20deg);
+    opacity: 0;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border:none;
+}
+.select
+{
+    margin:1rem;
+    position: relative;
+    overflow: hidden;
+}
+select{
+    color: black;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+.select::after
+{
+    content: "\25BC";
+    position: absolute;
+    background: hotpink;
+    top:0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.select:hover::after
+{
+background: white;
+color: hotpink;
+}
