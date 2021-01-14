@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9ab1111b22.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+    <title>Shivansh Tiwari</title>
+  </head>
+  <style>
+    
+
+  
+    .upper li {
+      margin-left: 30px;
+      border-radius: 10px;
+      background-color: #38333c;
+      }
+      .upper li a
+      {
+        letter-spacing: 2px;
+        font-family: 'Baloo 2', cursive;
+        color: white;
+      
+      }
+      .upper li a:hover
+      {
+        background-color: brown;
+        border-radius: 10px;
+        color: white;
+        }
+        .containerOne
+        {
+          background-color:rgb(233, 168, 233);
+          height: 350px;
+          display: flex;
+     
+        }
+        .text{
+          padding:70px;
+          
+
+        }
+        .text h1,h3,h5{
+          color: black;
+          text-transform: capitalize;
+         
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           }
+      .image
+      {
+        margin-right: 38px;
+        
+      }
+      .containerTwo
+      {
+       margin:0px;
+       padding: 20px;
+       background-color: #d08ddc;
+      }
+      .containerTwo h1{
+        font-family: 'Baloo 2', cursive;
+      }
+      .containerTwo div p{
+        text-align: center;
+        font-family: cursive;
+      }
+      .containerThree
+      {
+        height: 463px;
+        background-color: #dfd3db;
+      }
+      .containerFour
+      {
+      
+       background-color: #f4eff5;
+      }
+      .contact
+    {
+        
+        margin:auto;
+        padding:75px;
+        width:50%;
+        border-radius: 28px;
+    }
+      .form-group
+      {
+        display: flex;
+        flex-direction: column;
+       width:700px;
+       padding:1px;
+       font-size: 21px;
+       border:2px solid black;
+       margin:3px auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       font-family: 'Baloo Bhai 2', cursive;
+      }
+      .form-group div  
+      {
+        padding: 20px;
+        
+      }
+      .form-group div#age input
+      {
+        margin-left: 46px;
+        
+      }
+      .form-group div#name input
+      {
+        margin-left: 22px;
+        
+      }
+      .form-group div  span
+      {
+        color: red;
+        font-size: small;
+      }
+      
+      .btn
+      {
+        background: black;
+    color: white;
+        border: 2px solid black;
+       
+    width: 322px;
+    margin-bottom: 20px;
+    margin-left: 233px;
+    margin-top: 17px;
+      }
+      .btn:hover{
+        background-color: purple;
+        color: white;
+      }
+      .bottom
+      {
+        background-color: coral;
+      }
+      .bottom p
+      {
+        display: block;
+        margin: auto;
+        width: 300px;
+        font-family: 'Baloo Bhai 2', cursive;
+        color: cornsilk;
+      }
+      
+    .typing::after
+    {
+     content: "";
+     position: absolute; 
+     width: 1px;
+     height: 4%;
+     border-right: 2px solid white ;
+     animation: blink 0.5s infinite ease;
+     background-color: black;
+    }
+    .btn:active
+    {
+      background-color: green;
+    }
+     @keyframes blink
+    {
+      0%
+      {
+        opacity: 0;
+      }
+      100%
+      {
+        opacity:1;
+      }
+    }
+   
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg  bg-dark">
+      <a class="navbar-brand" href="#"><img src="./images/logo.jpg" alt="logo" width="70" height="50" style="filter:sepia(1);"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon pull-right"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav mr-auto upper">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+         
+        </ul>
+       
+      </div>
+    </nav>
+     <!-- first-container -->
+     <div class="container-fluid containerOne" id="Home">
+       <div class="text">
+        <h1 class="fancy">Hey There!</h1>
+        <h3>I am Shivansh Tiwari</h3>
+        <h5 class="typing"></h5>
+       </div>
+       <div class="image">
+         <img src="./images/Candid(slate).jpg" alt="" height="350" width="300">
+       </div>
+       <div>
+         <h1>About me!</h1>
+         <p style="font-family:'Baloo 2' ;"> I am an electronics engineer, I am very passionate about coding. I love to solve real life challenges.
+           I am very loyal towards my work and my client. I am known in market for my quality work.<strong>You are welcome to have my services.</strong> 
+        </p>
+       </div>
+     </div>
+     <div class="container-fluid containerTwo row" id="skills">
+            <h1 style="text-align: center;">MY SKILLS</h1>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <center> <i class="skill fab fa-java fa-7x"></i></center>
+          <center> <h5> <b> Java</b></h5> </center>
+          <p>I have acheived 5-star in java at hackerrank platform and I am also adept at spring framework.</p>
+           
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+        <center>  <i class="skill fab fa-js fa-7x"></i></center>
+        <center> <h5> <b>Java-Script</b></h5> </center>
+        <p>I have solved all the basic probelems of Java-Script in hackerrank and i have 2 years of experience in it.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <center>  <i class="skill fab fa-python fa-7x"></i></center>
+          <center> <h5><b> Python</h5></b> </center>
+          <p>I have been using python for my data analytics,machine learning and artificial intelligence projects since 2018.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <center> <i class="skill fab fa-bootstrap fa-7x"></i></center>
+          <center> <h5> <b>Bootstrap</b></h5> </center>
+          <p>Bootstrap is my favourite framework when it comes for the development in short span.</p>
+        </div>
+      
+    </div>
+    <div class="container containerThree" id="projects">
+       <center><h1> <em> My-Projects</em></h1></center>
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/slide-1.jpg" class="d-block w-100" alt="slide-1" height="400">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="background: cornsilk;">Web Development</h5>
+              <p style="background: black ;" >100+ projects on web development</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide-2.jpg" class="d-block w-100" alt="slide-2" height="400">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="background: cornsilk;">Data analytics</h5>
+              <p style="background: black ;">50+ projects on Data analytics</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide-3.jpg" class="d-block w-100" alt="slide-3" height="400">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="background: cornsilk;">Machine Learning</h5>
+              <p style="background: black ;">20+ projects on machine learning</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="containerFour container-fluid" id="contact">
+      <div class="contact">
+        <h1>Contact Me: </h1>
+        <form action="noaction.php" name="myForm" id="myForm" onsubmit="return validateForm()" method="post">
+            <div class="form-group" >
+              <div id="name">
+             Name: <input type="text" name="fname" placeholder="enter your full name" required autocomplete="off" >
+             <!-- <i class="fas fa-check-circle"></i>
+             <i class="fas fa-exclamation-circle"></i> -->
+            </div>
+            <div id="age">
+            Age:<input type="text" name="age" placeholder="enter your age" required autocomplete="off" >
+            <!-- <i class="fas fa-check-circle"></i>
+             <i class="fas fa-exclamation-circle"></i> -->
+          </div>
+          
+          <div id="number">
+             Number:  <input type="phone" name="number" placeholder="enter your phone-number" required autocomplete="off">
+             <!-- <i class="fas fa-check-circle"></i>
+             <i class="fas fa-exclamation-circle"></i> -->
+            </div>
+            <div id="mail">
+              Email-id: <input type="email" name="email" placeholder="enter your email-id" required autocomplete="off">
+              <!-- <i class="fas fa-check-circle"></i>
+             <i class="fas fa-exclamation-circle"></i> -->
+            </div>
+            <input class="btn" type="submit" value="Submit" >
+            </div>
+           
+        </form>
+    </div>
+
+    </div>
+
+    <div class="details">
+     <center> <h3>Your Details</h3></center>
+      <table style="width:100%">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Number</th>
+          <th>email-id</th>
+        </tr>
+        <tr class="data">
+          <td id="dname">---</td>
+          <td id="dage">---</td>
+          <td id="dnumber">---</td>
+          <td id="demail">---</td>
+
+        </tr>
+       
+      </table>
+    </div>
+   
+    <footer class="bottom">
+     <p> Author:Shivansh Tiwari</p>
+     <p> My-emailId:tshivansh2499@gmail.com</p>
+    </footer>
+        
+     
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="./javascript/app.js"></script>
+        <script src="./javascript/form.js"></script>
+        
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

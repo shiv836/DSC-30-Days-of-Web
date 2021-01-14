@@ -1,0 +1,49 @@
+.details
+{
+    margin: 20px;
+}
+.
+.details table
+{
+    border:2px solid black;
+}
+.details table th{
+    padding: 6px 30px;
+    margin: auto;
+    background: orange;
+    border:2px solid black;
+}
+.details table td{
+    padding: 6px 30px;
+    margin: auto;
+    border:2px solid black;
+    color: black;
+    
+}
+.done
+{
+    background-color:greenyellow;
+    font-size: large;
+    opacity: 0.7;
+    transition: all 2s ease;
+    /*note: not transitioning width */
+    transition-property: background-color,font-size;
+    font-family: cursive;
+    
+
+}
+
+.input_d
+{
+    border-color: green;
+     opacity: 0.2;
+    transition: all 0.35s ease;
+    transition-property: border-color,opacity;
+}
+.input_w
+{
+    border-color: red;
+    opacity: 0.2;
+   transition: all 0.35s ease;
+   transition-property: border-color,opacity;  
+}
